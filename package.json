@@ -10,6 +10,14 @@
     "client",
     "browser"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "author": "James A. Rosen <james@zendesk.com>",
-  "main": "timecop.js"
+  "main": "timecop.js",
+  "devDependencies": {
+    "grunt": "*",
+    "mocha": "*",
+    "chai": "*"
+  }
 }
